@@ -39,7 +39,8 @@ public class Solution {
 		System.out.println(dp.nonDuplicated(n3));
 		int[] n4 = { 6, 4, 3, 3, 3, 6, 6, };
 		System.out.println(dp.nonDuplicated(n4));
+		System.out.println();
 		
-		
+		double[][] currency = { {1.23, 1}, { 0.84, 1 }, { 1.32, 1 } };
 	}
 }

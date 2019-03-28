@@ -68,4 +68,16 @@ public class DailyProblems {
 		}
 		return n[n.length - 1];
 	}
+	
+	/*
+	 * This problem was asked by Jane Street.
+	 * 
+	 * Given a 2d array representing currency exchange rates, 
+	 * see if there is any arbitrage.
+	 */
+	public boolean arbitrage(double[][] currency) {
+		
+		
+		return false;
+	}
 }
