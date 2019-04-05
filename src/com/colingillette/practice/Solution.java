@@ -40,6 +40,12 @@ public class Solution {
 		int[] n4 = { 6, 4, 3, 3, 3, 6, 6, };
 		System.out.println(dp.nonDuplicated(n4));
 		System.out.println(dp.perfectNumber(3));
+		char[][] ch = { { 'c', 'b', 'a' }, { 'd', 'a', 'f' }, { 'g', 'h', 'i' } };
+		System.out.println(dp.changesForVerticalOrder(ch));
+		char [][] ch1 = { { 'c', 'b' }, { 'd', 'a' }, { 'g', 'h' } };
+		System.out.println(dp.changesForVerticalOrder(ch1));
+		char[][] ch2 = { { 'z', 'y', 'x' }, { 'w', 'v', 'u' }, { 't', 's', 'r' } };
+		System.out.println(dp.changesForVerticalOrder(ch2));
 		System.out.println();
 	}
 }
